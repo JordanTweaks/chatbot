@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Modern Chatbot Weboldal</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Make sure this link is correct -->
 </head>
+
 <body>
-    <div class="chat-container">
-        <div class="chat-box" id="chat-box">
-            <div class="message bot-message">Helló! Hogyan segíthetek?</div>
-        </div>
-        <div class="input-container">
-            <input type="text" id="user-input" placeholder="Írj valamit..." />
-            <button onclick="sendMessage()">Küldés</button>
-        </div>
+    <header>
+        <h1>Welcome to the Modern Chatbot</h1>
+        <p>This is a chatbot created with modern web technologies.</p>
+    </header>
+
+    <div class="chatbox">
+        <!-- Chat content here -->
     </div>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 Modern Chatbot. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
